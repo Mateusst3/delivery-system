@@ -2,20 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae7e374-6809-47ea-9a39-841c1c4d7669" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schemas/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/restaurant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/restaurant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schemas/restaurant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/routes/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schemas/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/index.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="2BZex0JZDCKTHAfD6gEcUrVsBHN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">

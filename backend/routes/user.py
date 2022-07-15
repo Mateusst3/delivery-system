@@ -2,7 +2,6 @@ from fastapi import APIRouter
 from config.db import engine
 from models.index import users
 from schemas.index import User
-from uuid import uuid4
 
 user = APIRouter()
 
@@ -15,7 +14,8 @@ async def read_data():
 
 @user.get("/{id}")
 async def read_data(id: int):
-    return engine.connect().excecute(users.select().where(users.c.id == id)).fetchall()
+    # return engine.connect().excecute(users.select().where(users.c.id == id)).fetchall()
+    return engine.connect().execute(users.select().where(users.c.id == id)).fetchall()
 
 
 @user.post("/")
@@ -31,7 +31,6 @@ async def write_data(user: User):
 @user.put("/{id}")
 async def update_data(id: int, user: User):
     engine.connect().execute(users.update().values(
-
         name=user.name,
         email=user.email,
         password=user.password
